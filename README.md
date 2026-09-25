@@ -90,3 +90,11 @@ flutter test
 
 `dart doc`（dartdoc 9.0.6）在生成 HTML 文档时会崩溃（`RangeError`，读取了超出源文件长度的偏移）。
 这是工具本身的问题，与注释内容无关，不影响 IDE 中显示文档，也不影响编译和测试。
+
+## 许可证
+
+Copyright (C) 2026 Theresa
+
+本项目以 [GNU LGPL-3.0](LICENSE) 发布（完整的 GPL-3.0 文本见 [COPYING](COPYING)）。
+你可以在任何应用（包括闭源商业应用）中使用本框架；修改框架本身并分发时，
+修改后的框架源码需要以 LGPL-3.0 公开。
