@@ -1,6 +1,6 @@
 name: tf_framework
 description: "A unified Flutter component framework with switchable design systems and persistent preferences."
-version: 0.3.0
+version: 0.3.1
 repository: https://github.com/Theresa-owo/TFframework
 issue_tracker: https://github.com/Theresa-owo/TFframework/issues
 topics:

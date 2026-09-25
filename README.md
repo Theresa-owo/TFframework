@@ -12,15 +12,26 @@
 
 ## 在应用中引用
 
-```yaml
-# 你的应用的 pubspec.yaml
-dependencies:
-  tf_framework:
-    path: ../TFframework          # 本地路径
-  # 或直接从 GitHub 引用：
-  # tf_framework:
-  #   git: { url: https://github.com/Theresa-owo/TFframework.git, ref: v0.3.0 }
+在应用目录运行：
+
 ```
+flutter pub add tf_framework
+```
+
+或手动写进应用的 `pubspec.yaml` 后运行 `flutter pub get`：
+
+```yaml
+dependencies:
+  tf_framework: ^0.3.1            # 从 pub.dev 引用（推荐）
+
+  # 其他方式（三选一）：
+  # tf_framework:
+  #   git: { url: https://github.com/Theresa-owo/TFframework.git, ref: v0.3.1 }   # 指定 GitHub 版本
+  # tf_framework:
+  #   path: ../TFframework                                                        # 本地源码，便于同时修改框架
+```
+
+要求 Flutter 3.47 或更高版本。
 
 ```dart
 import 'package:tf_framework/tf_framework.dart';
@@ -95,6 +106,6 @@ flutter test
 
 Copyright (C) 2026 Theresa
 
-本项目以 [GNU LGPL-3.0](LICENSE) 发布（完整的 GPL-3.0 文本见 [COPYING](COPYING)）。
-你可以在任何应用（包括闭源商业应用）中使用本框架；修改框架本身并分发时，
-修改后的框架源码需要以 LGPL-3.0 公开。
+本项目以 [Mozilla Public License 2.0](LICENSE) 发布。
+你可以在任何应用（包括闭源商业应用）中使用本框架；如果修改了框架中的文件并分发，
+这些被修改的文件需要以 MPL-2.0 公开源码。你自己的应用代码不受影响。

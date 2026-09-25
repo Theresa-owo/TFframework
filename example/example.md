@@ -14,7 +14,7 @@ dependencies:
   # tf_framework:
   #   git:
   #     url: https://github.com/Theresa-owo/TFframework.git
-  #     ref: v0.3.0
+  #     ref: v0.3.1
 ```
 
 ## 2. 启动应用
