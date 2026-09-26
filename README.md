@@ -106,6 +106,14 @@ flutter test
 
 Copyright (C) 2026 Theresa
 
-本项目以 [Mozilla Public License 2.0](LICENSE) 发布。
-你可以在任何应用（包括闭源商业应用）中使用本框架；如果修改了框架中的文件并分发，
-这些被修改的文件需要以 MPL-2.0 公开源码。你自己的应用代码不受影响。
+本项目以 [GPL-3.0-or-later](LICENSE)（GNU General Public License 第 3 版或更新版本）发布。
+使用、修改、分发本框架都需要遵守 GPL：把使用本框架的应用分发给他人时，应用整体需要以
+GPL 兼容许可证开源并提供源码。
+
+不想开源自己应用的开发者有两个选择：
+
+* 继续使用 pub.dev 上的 [0.3.1](https://pub.dev/packages/tf_framework/versions/0.3.1)，
+  该版本以 MPL-2.0 发布，闭源应用可以放心使用；
+* 联系作者获得商业授权。
+
+已经取得 MPL-2.0 版本源码的使用者可以继续按 MPL-2.0 使用那些版本，本次变更不影响。
